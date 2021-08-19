@@ -7,10 +7,14 @@ details: <h1>Extract named entities from text</h1>
 config: '
 <View>
   <Labels name="label" toName="text">
-    <Label value="PER" background="red"/>
-    <Label value="ORG" background="darkorange"/>
-    <Label value="LOC" background="orange"/>
-    <Label value="MISC" background="green"/>
+    <Label value="EVENT" background="red"/>
+    <Label value="GROUP" background="darkorange"/>
+    <Label value="ORG" background="aquamarine"/>
+    <Label value="PER" background="green"/>
+    <Label value="PROD" background="darksalmon"/>
+    <Label value="WORK_OF_ART" background="goldenrod"/>
+    <Label value="MONEY" background="darkorchid"/>
+    <Label value="MISC" background="palevioletred"/>
   </Labels>
 
   <Text name="text" value="$ner"/>

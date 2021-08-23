@@ -12,5 +12,5 @@ sh start_label_studio_docker.sh <project_name> <user_email> <user_password> <use
 ```
 For example
 ```sh
-sh start_label_studio_docker.sh ner-annotation-project tequila.internal@wisesight wsdev! wisesighttoken tasks.json
+sh start_label_studio_docker.sh ner-annotation-project tequila.internal@wisesight.com wsdev! wisesighttoken tasks.json
 ```

@@ -6,7 +6,7 @@
 
 This repository is forked from [label-studio](https://github.com/heartexlabs/label-studio). Its objective is to make a tool supporting Named-Entity Extraction Project for WISESIGHT.
 
-# __How to Run__
+## __How to Run__
 ```sh
 sh start_label_studio_docker.sh <project_name> <user_email> <user_password> <user_token> <path/to/tasks.json>
 ```

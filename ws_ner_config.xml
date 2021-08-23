@@ -1,0 +1,13 @@
+<View>
+  <Labels name="ner" toName="text">
+    <Label value="EVENT" background="red"/>
+    <Label value="GROUP" background="darkorange"/>
+    <Label value="ORG" background="aquamarine"/>
+    <Label value="PER" background="green"/>
+    <Label value="PROD" background="darksalmon"/>
+    <Label value="WORK_OF_ART" background="goldenrod"/>
+    <Label value="MONEY" background="darkorchid"/>
+    <Label value="MISC" background="palevioletred"/>
+  </Labels>
+  <Text name="text" value="$text"></Text>
+</View>

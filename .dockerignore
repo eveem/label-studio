@@ -8,6 +8,7 @@
 !requirements.txt
 !README.md
 !wait-for-it.sh
+!ws_ner_config.xml
 
 # but ignore:
 label_studio/frontend

@@ -3,5 +3,6 @@
 # /usr/local/bin/uwsgi --ini /label-studio/deploy/uwsgi.ini
 echo "Make simple Label Studio launch..."
 
-export LABEL_STUDIO_DISABLE_SIGNUP_WITHOUT_LINK=true
-label-studio --username arm@arm.com --password 123456
+pip install -U label-studio
+label-studio init $PROJECT_NAME -db postgresql --username $USER_EMAIL --password $USER_PASSWORD --user-token $USER_TOKEN -l ./ws_ner_config.xml
+label-studio
